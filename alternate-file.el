@@ -31,11 +31,11 @@
 ;; package is much simpler and doesn't use complicated heuristic to find test
 ;; files.
 ;;
-;; Instead it relies on user-supplied rules in `af-file-settings' variable -
-;; user should specify implementation directory, test directory and suffix of
-;; test files for each major mode manually.  As of now test prefixes are not
-;; supported because I don't use such languages but feel free to open a new
-;; issue in case you need them.
+;; Instead it relies on user-supplied rules in `af-settings' variable - user
+;; should specify implementation directory, test directory and suffix of test
+;; files for each major mode manually.  As of now test prefixes are not supported
+;; because I don't use such languages but feel free to open a new issue in case
+;; you need them.
 ;;
 ;; Another goal of creating this package is to avoid using `projectile' package
 ;; in favour of built-in `project.el' - user should configure the latter because

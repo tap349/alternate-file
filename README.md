@@ -9,10 +9,10 @@ This functionality is similar to that provided by `projectile` package and its
 `projectile-toggle-between-implementation-and-test` function but this package is
 much simpler and doesn't use complicated heuristic to find test files.
 
-Instead it relies on user-supplied rules in `af-file-settings` variable - user
-should specify implementation directory, test directory and suffix of test files
-for each major mode manually. As of now test prefixes are not supported because
-I don't use such languages but feel free to open a new issue in case you need them.
+Instead it relies on user-supplied rules in `af-settings` variable - user should
+specify implementation directory, test directory and suffix of test files for
+each major mode manually. As of now test prefixes are not supported because I
+don't use such languages but feel free to open a new issue in case you need them.
 
 ## Installation and example configuration
 
