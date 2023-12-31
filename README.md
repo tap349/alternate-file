@@ -14,7 +14,7 @@ should specify implementation directory, test directory and suffix of test files
 for each major mode manually. As of now test prefixes are not supported because
 I don't use such languages but feel free to open a new issue in case you need them.
 
-## Installation
+## Installation and example configuration
 
 ```emacs-lisp
 (use-package alternate-file
