@@ -44,7 +44,7 @@
 ;; Installation and sample configuration:
 ;;
 ;;    (use-package alternate-file
-;;      :straight (eldoc-box :type git :host github :repo "tap349/alternate-file")
+;;      :straight (alternate-file :type git :host github :repo "tap349/alternate-file")
 ;;      :after evil
 ;;      :custom
 ;;      (af-settings '((clojure-mode . ("src" "test" "_test"))
