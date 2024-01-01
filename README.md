@@ -30,6 +30,6 @@ don't use such languages but feel free to open a new issue in case you need them
     ("<leader>," . af-find-alternate-file)))
 ```
 
-`{}` means use the same directory for implementation and test directories - this
-is useful, say, for `go-mode` in which implementation and test files are usually
-stored in the same directory but it can be either `internal` or `pkg`.
+`{}` means "use the same directory for implementation and test directories" -
+this is useful, say, for `go-mode` in which implementation and test files are
+usually stored in the same directory but it can be either `internal` or `pkg`.
